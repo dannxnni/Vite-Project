@@ -123,8 +123,6 @@ async function delayA(data){
 }
 
 
-const value = await delayA('이슬기나');
-
 
 // value.then((res)=>{
 //   console.log( res );
