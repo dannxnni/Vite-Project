@@ -1,0 +1,59 @@
+.container{
+  max-width: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.container hr {
+  height: 4px;
+  background: rgba(0, 0, 0, 0.663);
+  margin: 1rem 0;
+}
+
+.container form {
+  margin-bottom: 5rem;
+}
+
+.container input {
+  border: 1px solid rgb(174, 174, 174);
+  padding: 1rem;
+  width: 100%;
+  min-width: 200px;
+  margin: 0.2rem 0;
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid black;
+}
+
+button[type="submit"] {
+  margin-top: 1.5rem;
+  background: black;
+  color: white;
+  width: 100%;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.register{
+  display: inline-block;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 100%;
+  /* transition: all 0.2s; */
+}
+
+.register:hover {
+  background: black;
+  color: white;
+}

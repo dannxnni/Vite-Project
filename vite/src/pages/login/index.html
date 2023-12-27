@@ -3,13 +3,13 @@
   <head>
     <title>Vite</title>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="stylesheet" href="/src/styles/tailwind.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="module" src="/src/pages/login/login.js"></script>
   </head>
   <body>
-    <header class="p-6 bg-slate-200 flex justify-between">
+    <header class="p-6 bg-gray-200 flex justify-between">
       <h1 class="logo font-bold">
         <a href="/">2.9cm</a>
       </h1>
@@ -22,7 +22,24 @@
       </nav>
     </header>
     <div class="container">
-      login
+      <h1>Login</h1>
+      <hr />
+
+      <form action="/">
+        <div>
+          <label for="idField"></label>
+          <input type="email" id="idField" placeholder="아이디 (이메일)"/>
+        </div>
+
+        <div>
+          <label for="pwField"></label>
+          <input type="password" id="pwField" placeholder="비밀번호"/>
+        </div>
+
+        <button class="login" type="submit">→</button>
+      </form>
+
+      <a class="register" href="/src/pages/register/">간편 회원가입</a>
 
     </div>
   </body>
