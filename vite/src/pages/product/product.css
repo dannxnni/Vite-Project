@@ -42,11 +42,16 @@
   font-weight: bold;
 }
 
-
-
-
-
-
+.new-post {
+  padding: 0.5rem 1rem;
+  background: black;
+  color: white;
+  border-radius: 20px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+}
 
 @media (max-width: 400px) {
   .container > ul { 
